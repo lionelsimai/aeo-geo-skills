@@ -1,0 +1,659 @@
+{
+  "name": "aeo-geo-skills",
+  "version": "1.0.0",
+  "author": "Lionel Sim",
+  "license": "MIT",
+  "count": 100,
+  "categories": [
+    {
+      "category": "AEO/GEO Strategy & Audits",
+      "skills": [
+        {
+          "slug": "ai-visibility-audit",
+          "title": "AI Visibility Audit",
+          "tool_kind": "skill",
+          "description": "Audit how a brand or person actually appears across ChatGPT, Perplexity, Gemini, Claude, Copilot and Google AI Overviews."
+        },
+        {
+          "slug": "ai-baseline-measurement",
+          "title": "AI Baseline Measurement",
+          "tool_kind": "skill",
+          "description": "Set a defensible baseline for AI-search visibility: fixed prompt set, scoring rubric and a repeatable monthly method."
+        },
+        {
+          "slug": "ai-share-of-voice",
+          "title": "AI Share of Voice",
+          "tool_kind": "skill",
+          "description": "Measure a brand's share of mentions and citations against competitors across a fixed set of AI-answer prompts."
+        },
+        {
+          "slug": "competitor-citation-gap-analysis",
+          "title": "Competitor Citation Gap Analysis",
+          "tool_kind": "skill",
+          "description": "Find the exact pages and sources engines cite for competitors but not for you, and turn them into a target list."
+        },
+        {
+          "slug": "query-tier-mapping",
+          "title": "Query Tier Mapping",
+          "tool_kind": "skill",
+          "description": "Tier the prompts that matter \u2014 prize queries, winnable adjacent queries, identity queries \u2014 and map each to the asset that can win it."
+        },
+        {
+          "slug": "answer-engine-landscape-scan",
+          "title": "Answer Engine Landscape Scan",
+          "tool_kind": "skill",
+          "description": "Decide which AI engines actually matter for a given audience, market and query type \u2014 before optimising for all of them."
+        },
+        {
+          "slug": "aeo-geo-readiness-scorecard",
+          "title": "AEO/GEO Readiness Scorecard",
+          "tool_kind": "skill",
+          "description": "Score an entity's readiness across the five layers \u2014 entity, citable content, corroboration, platform surfaces, technical floor \u2014 in one page."
+        },
+        {
+          "slug": "entity-resolution-diagnostic",
+          "title": "Entity Resolution Diagnostic",
+          "tool_kind": "skill",
+          "description": "Diagnose why AI engines misdescribe, confuse or hedge on an entity \u2014 and which conflicting signals cause it."
+        },
+        {
+          "slug": "citation-source-audit",
+          "title": "Citation Source Audit",
+          "tool_kind": "skill",
+          "description": "Audit which sources AI engines cite for a category's prompts, and what makes those sources liftable."
+        },
+        {
+          "slug": "aeo-geo-strategy-roadmap",
+          "title": "AEO/GEO Strategy Roadmap",
+          "tool_kind": "skill",
+          "description": "Turn audit findings into a sequenced 90-day AEO/GEO roadmap across the five layers, with owners and measurement gates."
+        }
+      ]
+    },
+    {
+      "category": "Entity & Knowledge Foundation",
+      "skills": [
+        {
+          "slug": "canonical-bio-builder",
+          "title": "Canonical Bio Builder",
+          "tool_kind": "skill",
+          "description": "Write the one canonical bio \u2014 short, medium and long versions \u2014 that every surface will repeat verbatim."
+        },
+        {
+          "slug": "entity-consistency-sweep",
+          "title": "Entity Consistency Sweep",
+          "tool_kind": "skill",
+          "description": "Audit every public surface describing an entity and flag every descriptor, role or fact that contradicts the canonical bio."
+        },
+        {
+          "slug": "wikidata-entry-builder",
+          "title": "Wikidata Entry Builder",
+          "tool_kind": "skill",
+          "description": "Prepare a well-sourced Wikidata item for a person or organisation \u2014 only when notability evidence genuinely supports it."
+        },
+        {
+          "slug": "knowledge-panel-claim-guide",
+          "title": "Knowledge Panel Claim Guide",
+          "tool_kind": "skill",
+          "description": "Claim and correct a Google Knowledge Panel: verify identity, submit sourced corrections, and keep the panel accurate."
+        },
+        {
+          "slug": "author-page-architect",
+          "title": "Author Page Architect",
+          "tool_kind": "skill",
+          "description": "Design the owned author/expert page that anchors an entity: canonical bio, proof, works, FAQ and schema hooks."
+        },
+        {
+          "slug": "nap-consistency-checker",
+          "title": "NAP & Bio-Field Consistency Checker",
+          "tool_kind": "skill",
+          "description": "Check name, address, phone and core bio fields for one entity across directories, maps and profiles \u2014 and fix the variants."
+        },
+        {
+          "slug": "sameas-linking-map",
+          "title": "sameAs Linking Map",
+          "tool_kind": "skill",
+          "description": "Build the definitive sameAs map: every official profile URL that represents the same entity, ready for schema and bios."
+        },
+        {
+          "slug": "founder-entity-profile",
+          "title": "Founder Entity Profile",
+          "tool_kind": "skill",
+          "description": "Build a founder's person-entity profile: the facts, works and affiliations engines need to resolve them as a distinct expert."
+        },
+        {
+          "slug": "organisation-entity-profile",
+          "title": "Organisation Entity Profile",
+          "tool_kind": "skill",
+          "description": "Build an organisation's entity profile: what it is, where, founded when, what it offers \u2014 stated identically everywhere."
+        },
+        {
+          "slug": "entity-disambiguation-fix",
+          "title": "Entity Disambiguation Fix",
+          "tool_kind": "skill",
+          "description": "Separate an entity from its namesakes in AI answers: choose disambiguators and apply them consistently until engines split the entities."
+        }
+      ]
+    },
+    {
+      "category": "Citable Content",
+      "skills": [
+        {
+          "slug": "answer-first-article-writer",
+          "title": "Answer-First Article Writer",
+          "tool_kind": "skill",
+          "description": "Write articles that open with the direct answer in the first 100 words, use question-shaped headings, and end with an FAQ block."
+        },
+        {
+          "slug": "quotable-stat-extractor",
+          "title": "Quotable Stat Extractor",
+          "tool_kind": "skill",
+          "description": "Turn reports, datasets and operating numbers into standalone citable statistics with sources, dates and definitions."
+        },
+        {
+          "slug": "original-research-designer",
+          "title": "Original Research Designer",
+          "tool_kind": "skill",
+          "description": "Design an original study, survey or data report that becomes the citation magnet competitors cannot copy."
+        },
+        {
+          "slug": "faq-block-builder",
+          "title": "FAQ Block Builder",
+          "tool_kind": "skill",
+          "description": "Build FAQ blocks that answer the real questions about an entity, product or topic \u2014 in wording engines can quote verbatim."
+        },
+        {
+          "slug": "how-to-guide-structurer",
+          "title": "How-To Guide Structurer",
+          "tool_kind": "skill",
+          "description": "Structure how-to guides so AI engines can extract the steps: numbered actions, prerequisites, tools and time stated up front."
+        },
+        {
+          "slug": "definition-page-writer",
+          "title": "Definition Page Writer",
+          "tool_kind": "skill",
+          "description": "Write 'what is X' definition pages: a crisp citable definition in the first lines, then depth, examples and boundaries."
+        },
+        {
+          "slug": "comparison-page-builder",
+          "title": "Comparison Page Builder",
+          "tool_kind": "skill",
+          "description": "Build honest X-vs-Y comparison pages with criteria tables engines extract \u2014 including where the other option wins."
+        },
+        {
+          "slug": "data-landing-page-builder",
+          "title": "Data Landing Page Builder",
+          "tool_kind": "skill",
+          "description": "Build the permanent landing page for a flagship dataset or report: headline stats up top, methodology visible, editions archived."
+        },
+        {
+          "slug": "expert-quote-bank",
+          "title": "Expert Quote Bank",
+          "tool_kind": "skill",
+          "description": "Build a bank of short, quotable expert statements on the entity's topics \u2014 sourced positions journalists and engines can reuse."
+        },
+        {
+          "slug": "listicle-ready-asset-builder",
+          "title": "Listicle-Ready Asset Builder",
+          "tool_kind": "skill",
+          "description": "Prepare the asset roundup editors need \u2014 verified facts, category fit, images and contact \u2014 so legitimate listicles can include the entity accurately."
+        }
+      ]
+    },
+    {
+      "category": "Structured Data & Technical",
+      "skills": [
+        {
+          "slug": "person-schema-builder",
+          "title": "Person Schema Builder",
+          "tool_kind": "skill",
+          "description": "Build valid Person schema (JSON-LD) connecting name, descriptor, organisation, works and sameAs profiles."
+        },
+        {
+          "slug": "organisation-schema-builder",
+          "title": "Organisation Schema Builder",
+          "tool_kind": "skill",
+          "description": "Build valid Organization schema: legal/trading names, founding, HQ, founders, offers and official profiles."
+        },
+        {
+          "slug": "faq-schema-generator",
+          "title": "FAQ Schema Generator",
+          "tool_kind": "skill",
+          "description": "Convert on-page FAQ blocks into valid FAQPage schema that matches the visible text exactly."
+        },
+        {
+          "slug": "article-schema-builder",
+          "title": "Article Schema Builder",
+          "tool_kind": "skill",
+          "description": "Add Article/BlogPosting schema with a real author entity, dates and headline discipline to every citable article."
+        },
+        {
+          "slug": "llms-txt-builder",
+          "title": "llms.txt Builder",
+          "tool_kind": "skill",
+          "description": "Create and maintain an llms.txt file: a clean map of the site's key entity pages and citable assets for AI systems."
+        },
+        {
+          "slug": "ai-crawler-access-audit",
+          "title": "AI Crawler Access Audit",
+          "tool_kind": "skill",
+          "description": "Audit robots.txt, CDN and firewall rules for AI crawler access \u2014 and make the allow/block decision per crawler, deliberately."
+        },
+        {
+          "slug": "site-architecture-for-ai-retrieval",
+          "title": "Site Architecture for AI Retrieval",
+          "tool_kind": "skill",
+          "description": "Shape site structure so engines find the hub-and-asset system: shallow paths, descriptive URLs, and hub pages that link the cluster."
+        },
+        {
+          "slug": "schema-validation-qa",
+          "title": "Schema Validation & QA",
+          "tool_kind": "skill",
+          "description": "Validate all structured data on the key pages: parse errors, fact mismatches against the fact sheet, and dropped schema after redesigns."
+        },
+        {
+          "slug": "canonical-and-duplicate-content-fix",
+          "title": "Canonical & Duplicate Content Fix",
+          "tool_kind": "skill",
+          "description": "Find duplicate or competing pages about the same entity/topic and consolidate them so signals stop splitting."
+        },
+        {
+          "slug": "indexation-and-crawl-floor",
+          "title": "Indexation & Crawl Floor",
+          "tool_kind": "skill",
+          "description": "Set the technical floor: Search Console + Bing Webmaster verified, sitemap submitted, IndexNow on, key pages confirmed indexed."
+        }
+      ]
+    },
+    {
+      "category": "Third-Party Corroboration",
+      "skills": [
+        {
+          "slug": "roundup-pitch-builder",
+          "title": "Roundup Pitch Builder",
+          "tool_kind": "skill",
+          "description": "Pitch an entity into legitimate 'top/best' roundups with a factual, editor-ready case \u2014 and walk away from spam lists."
+        },
+        {
+          "slug": "digital-pr-story-angler",
+          "title": "Digital PR Story Angler",
+          "tool_kind": "skill",
+          "description": "Turn an entity's data and expertise into press-worthy story angles that earn quoted-expert placements in real media."
+        },
+        {
+          "slug": "podcast-pitch-and-prep",
+          "title": "Podcast Pitch & Prep",
+          "tool_kind": "skill",
+          "description": "Pitch podcast appearances and prepare the canonical bio, talking points and show-notes text that make each episode a corroborating source."
+        },
+        {
+          "slug": "directory-listing-quality-audit",
+          "title": "Directory Listing Quality Audit",
+          "tool_kind": "skill",
+          "description": "Audit directory and listing presence: keep the legitimate, accurate listings; reject the spam farms."
+        },
+        {
+          "slug": "review-platform-presence-builder",
+          "title": "Review Platform Presence Builder",
+          "tool_kind": "skill",
+          "description": "Build a genuine review-platform presence (G2, Capterra, Google reviews, industry equivalents) that engines treat as corroboration."
+        },
+        {
+          "slug": "media-credit-line-brief",
+          "title": "Media Credit Line Brief",
+          "tool_kind": "skill",
+          "description": "Standardise the exact credit line journalists and producers use, so every mention carries the descriptor engines need to repeat."
+        },
+        {
+          "slug": "speaker-bio-corroboration",
+          "title": "Speaker Bio Corroboration",
+          "tool_kind": "skill",
+          "description": "Make every event and speaker page a corroborating source: canonical bio supplied at confirmation, verified when the page goes live."
+        },
+        {
+          "slug": "book-surface-optimiser",
+          "title": "Book Surface Optimiser",
+          "tool_kind": "skill",
+          "description": "Optimise the surfaces books create \u2014 Amazon author page, Goodreads, publisher pages \u2014 as entity evidence with one canonical bio."
+        },
+        {
+          "slug": "partner-coauthored-content",
+          "title": "Partner Co-Authored Content",
+          "tool_kind": "skill",
+          "description": "Create co-authored content with partners \u2014 joint reports, articles and guides \u2014 that corroborates both entities on third-party ground."
+        },
+        {
+          "slug": "corroboration-gap-mapper",
+          "title": "Corroboration Gap Mapper",
+          "tool_kind": "skill",
+          "description": "Map which corroboration types an entity is missing \u2014 roundups, press, podcasts, reviews, directories \u2014 against what its category's answers reward."
+        }
+      ]
+    },
+    {
+      "category": "Platform Surfaces",
+      "skills": [
+        {
+          "slug": "google-ai-overviews-tactics",
+          "title": "Google AI Overviews Tactics",
+          "tool_kind": "skill",
+          "description": "Earn citations in Google AI Overviews: classic-search strength plus liftable page structure on the queries that trigger overviews."
+        },
+        {
+          "slug": "chatgpt-citation-tactics",
+          "title": "ChatGPT Citation Tactics",
+          "tool_kind": "skill",
+          "description": "Understand and earn ChatGPT's citations: web-search retrieval, source preferences and what makes it name an entity in answers."
+        },
+        {
+          "slug": "perplexity-citation-tactics",
+          "title": "Perplexity Citation Tactics",
+          "tool_kind": "skill",
+          "description": "Earn Perplexity citations: fresh, clearly-sourced pages and the research-style content its answers favour."
+        },
+        {
+          "slug": "gemini-visibility-tactics",
+          "title": "Gemini Visibility Tactics",
+          "tool_kind": "skill",
+          "description": "Work Gemini's ecosystem advantage: Google-index strength, entity data and the surfaces Google owns that feed its answers."
+        },
+        {
+          "slug": "copilot-bing-citation-tactics",
+          "title": "Copilot & Bing Citation Tactics",
+          "tool_kind": "skill",
+          "description": "Earn Copilot citations through the Bing index: IndexNow, Bing Webmaster data and Bing-visible corroboration."
+        },
+        {
+          "slug": "claude-visibility-tactics",
+          "title": "Claude Visibility Tactics",
+          "tool_kind": "skill",
+          "description": "Understand how Claude answers entity and category questions, and which sources shape those answers."
+        },
+        {
+          "slug": "google-ai-mode-tactics",
+          "title": "Google AI Mode Tactics",
+          "tool_kind": "skill",
+          "description": "Prepare for conversational AI Mode search: multi-turn queries, follow-up context and fan-out sub-queries."
+        },
+        {
+          "slug": "youtube-as-ai-source",
+          "title": "YouTube as an AI Source",
+          "tool_kind": "skill",
+          "description": "Make YouTube videos retrievable evidence: query-phrased titles, canonical descriptions and full transcripts engines can read."
+        },
+        {
+          "slug": "linkedin-surface-optimiser",
+          "title": "LinkedIn Surface Optimiser",
+          "tool_kind": "skill",
+          "description": "Optimise LinkedIn as a corroborating surface: exact-phrase headline, canonical About, and content that syndicates beyond the login wall."
+        },
+        {
+          "slug": "platform-priority-planner",
+          "title": "Platform Priority Planner",
+          "tool_kind": "skill",
+          "description": "Decide where AEO effort goes per platform: rank engines and surfaces by audience, effort and observed citation behaviour."
+        }
+      ]
+    },
+    {
+      "category": "Brand & Expert Positioning",
+      "skills": [
+        {
+          "slug": "expert-positioning-statement",
+          "title": "Expert Positioning Statement",
+          "tool_kind": "skill",
+          "description": "Craft the one positioning statement an expert will be known by: domain, audience, proof and place in a single repeatable line."
+        },
+        {
+          "slug": "linkedin-headline-and-about",
+          "title": "LinkedIn Headline & About",
+          "tool_kind": "skill",
+          "description": "Set a LinkedIn headline and About that carry the exact positioning phrase and canonical bio \u2014 the profile as identity evidence."
+        },
+        {
+          "slug": "speaking-page-builder",
+          "title": "Speaking Page Builder",
+          "tool_kind": "skill",
+          "description": "Build a speaking page that doubles as entity evidence: topics in query language, past events, testimonials and the canonical bio."
+        },
+        {
+          "slug": "book-as-entity-evidence",
+          "title": "Book as Entity Evidence",
+          "tool_kind": "skill",
+          "description": "Use books as an entity-evidence system: ISBNs, publisher records and reviews woven into the author entity, not just sold."
+        },
+        {
+          "slug": "media-kit-builder",
+          "title": "Media Kit Builder",
+          "tool_kind": "skill",
+          "description": "Build a media kit that makes an expert easy to quote correctly: bios, credit line, proof stats, headshots and past coverage."
+        },
+        {
+          "slug": "expert-faq-interview-page",
+          "title": "Expert FAQ / Interview Page",
+          "tool_kind": "skill",
+          "description": "Publish a Q&A interview page with the expert: the questions engines ask, answered in first person with citable specificity."
+        },
+        {
+          "slug": "byline-and-author-bio-system",
+          "title": "Byline & Author Bio System",
+          "tool_kind": "skill",
+          "description": "Systematise bylines everywhere the expert publishes: one template, canonical descriptor, linked author page \u2014 no drift across outlets."
+        },
+        {
+          "slug": "award-and-credential-verifier",
+          "title": "Award & Credential Verifier",
+          "tool_kind": "skill",
+          "description": "Present awards and credentials so they verify: issuer, year, and a checkable record for every claim on every surface."
+        },
+        {
+          "slug": "personal-entity-content-hub",
+          "title": "Personal Entity Content Hub",
+          "tool_kind": "skill",
+          "description": "Architect the expert's content hub: author page at the centre, with articles, talks, books and data linked as one entity system."
+        },
+        {
+          "slug": "reputation-answer-repair",
+          "title": "Reputation Answer Repair",
+          "tool_kind": "skill",
+          "description": "Repair what 'Who is X?' returns: fix the stale sources feeding identity answers until the canonical facts lead."
+        }
+      ]
+    },
+    {
+      "category": "Monitoring & Measurement",
+      "skills": [
+        {
+          "slug": "prompt-set-tracker-design",
+          "title": "Prompt Set Tracker Design",
+          "tool_kind": "skill",
+          "description": "Design the tracking sheet/system for a prompt set: fields, engine slices, and a run protocol anyone can repeat identically."
+        },
+        {
+          "slug": "citation-log-system",
+          "title": "Citation Log System",
+          "tool_kind": "skill",
+          "description": "Log every citation an entity earns in AI answers: source, prompt, engine, date and position \u2014 the asset register of AEO."
+        },
+        {
+          "slug": "monthly-ai-visibility-scorecard",
+          "title": "Monthly AI Visibility Scorecard",
+          "tool_kind": "skill",
+          "description": "Produce the one-page monthly scorecard: tier scores vs baseline, per-engine movement, descriptor accuracy and the month's actions."
+        },
+        {
+          "slug": "citation-regression-alerts",
+          "title": "Citation Regression Alerts",
+          "tool_kind": "skill",
+          "description": "Detect and diagnose lost citations: when a previously-cited source drops out of answers, find out why before it compounds."
+        },
+        {
+          "slug": "descriptor-accuracy-check",
+          "title": "Descriptor Accuracy Check",
+          "tool_kind": "skill",
+          "description": "Check the words engines use for an entity: is the canonical descriptor spreading, and which wrong phrases persist from which sources?"
+        },
+        {
+          "slug": "search-console-ai-query-mining",
+          "title": "Search Console AI Query Mining",
+          "tool_kind": "skill",
+          "description": "Mine Search Console and Bing data for the real queries behind AI visibility: new prompt candidates and content gaps."
+        },
+        {
+          "slug": "bing-ai-citation-report-reader",
+          "title": "Bing AI Citation Report Reader",
+          "tool_kind": "skill",
+          "description": "Read Bing Webmaster's AI citation/performance reports correctly: which pages Copilot-era surfaces cite, and what to do about it."
+        },
+        {
+          "slug": "competitor-visibility-benchmark",
+          "title": "Competitor Visibility Benchmark",
+          "tool_kind": "skill",
+          "description": "Benchmark the entity against 3-5 competitors on the same prompt set: mentions, citations, descriptors and trajectories."
+        },
+        {
+          "slug": "visibility-experiment-log",
+          "title": "Visibility Experiment Log",
+          "tool_kind": "skill",
+          "description": "Run AEO as experiments: hypothesis, change, window, result \u2014 so the programme learns what actually moves answers."
+        },
+        {
+          "slug": "board-level-visibility-report",
+          "title": "Board-Level Visibility Report",
+          "tool_kind": "skill",
+          "description": "Translate AEO results into a board/client-executive report: what AI says about us, why it matters commercially, and what happens next."
+        }
+      ]
+    },
+    {
+      "category": "Local & Vertical AEO",
+      "skills": [
+        {
+          "slug": "local-business-ai-visibility",
+          "title": "Local Business AI Visibility",
+          "tool_kind": "skill",
+          "description": "Get a local business correctly named, described and recommended in 'near me' and '[service] in [place]' AI answers."
+        },
+        {
+          "slug": "local-service-faq-and-schema-pack",
+          "title": "Local Service FAQ & Schema Pack",
+          "tool_kind": "skill",
+          "description": "Equip local service pages with the FAQ answers and LocalBusiness schema that make services, areas and prices liftable."
+        },
+        {
+          "slug": "b2b-saas-geo-playbook",
+          "title": "B2B SaaS GEO Playbook",
+          "tool_kind": "skill",
+          "description": "The GEO playbook for B2B software: category prompts, comparison and alternatives pages, review platforms and integration ecosystems."
+        },
+        {
+          "slug": "ecommerce-product-ai-visibility",
+          "title": "Ecommerce Product AI Visibility",
+          "tool_kind": "skill",
+          "description": "Make products findable and recommendable in AI shopping and product answers: feed-quality data, reviews and citable product content."
+        },
+        {
+          "slug": "professional-services-expert-visibility",
+          "title": "Professional Services Expert Visibility",
+          "tool_kind": "skill",
+          "description": "AEO for law, accounting, consulting and advisory firms: partner-level expert entities inside a firm entity, within professional rules."
+        },
+        {
+          "slug": "healthcare-provider-ai-visibility",
+          "title": "Healthcare Provider AI Visibility",
+          "tool_kind": "skill",
+          "description": "Conservative, accuracy-first AI visibility for clinics and healthcare providers: correct facts, credentialed authorship, zero medical hype."
+        },
+        {
+          "slug": "restaurant-and-hospitality-ai-visibility",
+          "title": "Restaurant & Hospitality AI Visibility",
+          "tool_kind": "skill",
+          "description": "Be the answer to 'where should we eat/stay' prompts: accurate venue facts, menus engines can read, and genuine guest reviews."
+        },
+        {
+          "slug": "education-provider-ai-visibility",
+          "title": "Education Provider AI Visibility",
+          "tool_kind": "skill",
+          "description": "Help schools, course providers and trainers be cited accurately for course/curriculum prompts \u2014 outcomes stated only as evidenced."
+        },
+        {
+          "slug": "real-estate-ai-visibility",
+          "title": "Real Estate AI Visibility",
+          "tool_kind": "skill",
+          "description": "AEO for agencies and agents: area expertise content, accurate listing facts and agent entities \u2014 within property advertising rules."
+        },
+        {
+          "slug": "multi-location-entity-consistency",
+          "title": "Multi-Location Entity Consistency",
+          "tool_kind": "skill",
+          "description": "Keep many locations consistent without making them identical: brand facts frozen centrally, local facts owned locally."
+        }
+      ]
+    },
+    {
+      "category": "GEO Content Ops & Workflows",
+      "skills": [
+        {
+          "slug": "content-freshness-refresh-audit",
+          "title": "Content Freshness Refresh Audit",
+          "tool_kind": "skill",
+          "description": "Audit citable content for staleness: facts, stats, screenshots and claims that aged out, ranked by citation value at risk."
+        },
+        {
+          "slug": "source-worthy-update-writer",
+          "title": "Source-Worthy Update Writer",
+          "tool_kind": "skill",
+          "description": "Write updates that give engines a reason to re-cite: new data, corrected facts and genuinely new sections \u2014 announced honestly."
+        },
+        {
+          "slug": "aeo-content-brief-builder",
+          "title": "AEO Content Brief Builder",
+          "tool_kind": "skill",
+          "description": "Write content briefs that make any writer produce citable work: target prompt, answer-first structure, allowed facts and proof requirements."
+        },
+        {
+          "slug": "agency-aeo-delivery-workflow",
+          "title": "Agency AEO Delivery Workflow",
+          "tool_kind": "skill",
+          "description": "Run AEO as an agency service: intake, baseline, monthly cadence, client approvals and reporting that survives staff changes."
+        },
+        {
+          "slug": "editorial-calendar-for-ai-citations",
+          "title": "Editorial Calendar for AI Citations",
+          "tool_kind": "skill",
+          "description": "Plan content by citation targets, not by topic brainstorms: every slot tied to a prompt, tier and asset format."
+        },
+        {
+          "slug": "repurpose-talks-into-articles",
+          "title": "Repurpose Talks into Articles",
+          "tool_kind": "skill",
+          "description": "Turn every talk, podcast and panel into an owned, citable article: transcript to answer-first piece, linked both ways."
+        },
+        {
+          "slug": "internal-linking-hub-maintainer",
+          "title": "Internal Linking Hub Maintainer",
+          "tool_kind": "skill",
+          "description": "Maintain the internal link graph of the entity hub: every new asset linked in and out, hubs updated, dead ends eliminated."
+        },
+        {
+          "slug": "citation-driven-content-gap-planner",
+          "title": "Citation-Driven Content Gap Planner",
+          "tool_kind": "skill",
+          "description": "Plan new content from citation evidence: the prompts where engines cite others, the sub-questions with no asset, the formats that win."
+        },
+        {
+          "slug": "aeo-qa-review-checklist",
+          "title": "AEO QA Review Checklist",
+          "tool_kind": "skill",
+          "description": "The pre-publish QA gate for citable content: facts vs allow-list, structure, schema pairing, links and dates \u2014 pass or it does not ship."
+        },
+        {
+          "slug": "team-training-playbook-aeo",
+          "title": "Team Training Playbook (AEO)",
+          "tool_kind": "skill",
+          "description": "Train a team or client team to run AEO without the founder in the room: the model, the routines and the red lines, in teachable form."
+        }
+      ]
+    }
+  ]
+}

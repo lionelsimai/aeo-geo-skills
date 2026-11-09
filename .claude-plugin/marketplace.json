@@ -1,0 +1,25 @@
+{
+  "metadata": {
+    "description": "Open-source AI agent skills by Lionel Sim (The AI Capitol).",
+    "version": "1.0.0"
+  },
+  "name": "lionel-sim-skills",
+  "owner": {
+    "name": "Lionel Sim",
+    "url": "https://sg.linkedin.com/in/lionelshen"
+  },
+  "plugins": [
+    {
+      "author": {
+        "name": "Lionel Sim"
+      },
+      "category": "marketing",
+      "description": "AEO & GEO Skills — 100 open-source skills for Answer Engine Optimization and Generative Engine Optimization: audits, entity foundation, citable content, structured data, corroboration, per-engine tactics, expert positioning, monitoring, verticals and content ops. White-hat only.",
+      "keywords": ["aeo", "geo", "answer-engine-optimization", "generative-engine-optimization", "ai-search", "seo"],
+      "license": "MIT",
+      "name": "aeo-geo-skills",
+      "source": "./",
+      "version": "1.0.0"
+    }
+  ]
+}
